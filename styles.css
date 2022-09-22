@@ -310,7 +310,7 @@ header .row {
     width: 90%;
     max-width: 1440px;
     margin: 7.5rem auto;
-    border: 1px solid blue; 
+    border: 1px dotted blue; 
   }
   
   .our-team .row {
@@ -349,7 +349,7 @@ header .row {
     width: 90%;
     max-width: 1440px;
     margin: 7.5rem auto;
-    border: 1px solid blue; 
+    border: 1px dotted blue; 
   }
   
   .our-team .row {
@@ -385,7 +385,7 @@ header .row {
     width: 87.85%;
     max-width: 1440px;
     margin: 7.5rem auto;
-    border: 1px solid blue; 
+    border: 1px dotted blue; 
   }
   
   .our-team .row {
@@ -426,5 +426,58 @@ header .row {
   }
 }
 
+/* Our Mission & Vision */
+.our-mission-vision .container {
+  width: 90%;
+  max-width: 1440px;
+  margin: 7.5rem auto;
+  padding: 4rem 1rem;
+  border: 1px solid blue; 
+}
 
+.our-mission-vision .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 4rem;
+  text-align: center;
+}
+
+.mission-vision {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.our-mission-vision .section-header {
+  align-items: center;
+}
+
+@media (min-width: 57.5rem) {
+  .our-mission-vision .container {
+    width: 87.85%;
+    max-width: 1440px;
+    margin: 7.5rem auto;
+    padding: 8rem 0;
+    border: 1px solid blue; 
+  }
+  
+  .our-mission-vision .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  
+  .mission-vision {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 40%;
+    border: 1px solid red;
+  }
+}
 
