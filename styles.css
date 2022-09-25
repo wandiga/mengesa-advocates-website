@@ -821,7 +821,7 @@ header .row {
 }
 
 /* Contact Us */
-.contact {
+.contact-info {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
@@ -845,6 +845,14 @@ header .row {
   border: none;
   border-radius: 0px;
   padding: 1.25rem 2rem;
+  background-color: var(--color-brand-purple);
+  color: var(--color-neutral-white);
+}
+
+/* Footer */
+footer {
+  padding: 1.5rem;
+  text-align: center;
   background-color: var(--color-brand-purple);
   color: var(--color-neutral-white);
 }
